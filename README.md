@@ -6,7 +6,7 @@ For methodology & results, please refer to the Report. -->
 
 <div align="center">
 
-# 🌧️ Precipitation Forecasting with DA-RNN
+# Precipitation Forecasting with DA-RNN
 ### Dual-Stage Attention RNN vs. LSTM vs. Linear Regression on ERA5 Reanalysis Data
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -20,7 +20,7 @@ For methodology & results, please refer to the Report. -->
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Precipitation is hard to forecast: it's driven by many interacting atmospheric variables and has long-range temporal dependencies that classical models (ARMA, ARIMA, NARX) can't capture well. 
 In this project, we explore the application of the Dual-Stage Attention-Based Recurrent Neural Network (DA-RNN) [1] to predict precipitation levels using the ERA5 dataset  [2]. The DA-RNN architecture is specifically designed to address two major limitations of classical time series models: (i) their inability to select the most relevant input features, and (ii) their weakness in capturing long-range temporal dependencies, which are critical for modeling complex weather patterns.
@@ -94,7 +94,7 @@ Input window [T=10h, n_features] → flattened to one vector → linear layer �
 
 ---
 
-## 📊 Results
+## Results
 
 Test-set performance (lower is better):
 

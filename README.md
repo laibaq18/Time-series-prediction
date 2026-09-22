@@ -29,7 +29,7 @@ The DA-RNN model has already demonstrated state-of-the-art performance on financ
 
 So this project implements the **Dual-Stage Attention-Based RNN (DA-RNN)** - model with two attention stages: Input & Temporal attention ...and benchmarks it against an **LSTM** and a **Linear Regression** baseline to check whether the extra complexity is actually worth it.
 
-> 📄 Full write-up: [`Project-Report.pdf`](assets/Project Report.pdf) (literature review, methodology, references)
+> 📄 Full write-up: [`Project-Report.pdf`](assets/Project-Report.pdf) (literature review, methodology, references)
 
 ---
 
